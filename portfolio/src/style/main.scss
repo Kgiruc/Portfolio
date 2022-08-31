@@ -1,5 +1,8 @@
 @import "reset";
+@import "../style/settings/fonts";
+@import "../style/settings/colors";
+@import "componenets-style/fixblock.scss";
 
 body{
-  background-color: green;
+  background-color: $color-blue;
 }
