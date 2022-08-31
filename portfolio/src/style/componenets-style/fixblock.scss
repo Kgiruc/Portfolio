@@ -1,0 +1,16 @@
+.fixblock__container{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: $color-purple;
+  color: $color-white;
+    h1{
+    font-size: $font-head4;
+  }
+  span{
+    font-size: $font-general;
+  }
+}
