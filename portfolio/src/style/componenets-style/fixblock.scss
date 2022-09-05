@@ -1,5 +1,5 @@
-.fixblock__container{
-  width: 50vw;
+.fixblock__container {
+  width: 45vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,10 +7,40 @@
   align-items: start;
   background-color: $color-blue;
   color: $color-white;
-    h1{
-    font-size: $font-head4;
+  font-family: $font-base;
+  padding-left: 40px;
+  position: fixed;
+  h1 {
+    font-size: $font-head3;
+    margin-bottom: 15px;
   }
-  span{
-    font-size: $font-general;
+
+  span {
+    font-size: $font-subhead1;
+    margin-bottom: 30px;
+    font-family: $font-alt;
+  }
+
+  button {
+    border: 1px solid $color-white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: transparent;
+    color: $color-white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+
+
+footer{
+  position: absolute;
+  bottom: 2vh;
+
+  a{
+    color: $color-gray-blank;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
   }
 }
