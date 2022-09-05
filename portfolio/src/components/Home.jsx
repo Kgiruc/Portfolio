@@ -2,7 +2,7 @@ import FixBlock from "./FixBlock.jsx";
 
 function Home() {
     return (
-        <div>
+        <div className="home__container">
             <FixBlock />
         </div>
     );
