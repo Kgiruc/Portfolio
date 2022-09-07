@@ -19,6 +19,8 @@
     font-size: $font-subhead1;
     margin-bottom: 30px;
     font-family: $font-alt;
+    font-weight: 300;
+    max-width: 40vw;
   }
 
   button {
@@ -38,8 +40,8 @@ footer{
   bottom: 2vh;
 
   a{
-    color: $color-gray-blank;
-    font-weight: 500;
+    color: $color-light-gray;
+    font-weight: 600;
     cursor: pointer;
   }
 }
