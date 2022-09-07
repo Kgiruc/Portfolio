@@ -22,7 +22,7 @@
   }
 
   button {
-    border: 1px solid $color-white;
+    border: 2px solid $color-white;
     border-radius: 20px;
     padding: 8px 15px;
     background-color: transparent;
@@ -41,6 +41,5 @@ footer{
     color: $color-gray-blank;
     font-weight: 500;
     cursor: pointer;
-    text-decoration: none;
   }
 }

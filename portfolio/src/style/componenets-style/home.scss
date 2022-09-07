@@ -1,9 +1,23 @@
 .home__container{
-  background: url("https://nydsgn.com/images/visualization/7.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100vw;
+  background: url("https://nydsgn.com/images/visualization/7.jpg") center center no-repeat;
+
+  float: right;
   height: 100vh;
+  width: 55vw;
+    main{
+      margin: 50px;
+      header{
+        font-family: $font-base;
+        font-size: $font-head4;
+        font-weight: 500;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+    }
+}
+
+.main__article{
+  font-family: $font-alt;
+  font-size: $font-general;
+  
 }
