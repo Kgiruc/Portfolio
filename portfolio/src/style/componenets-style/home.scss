@@ -6,8 +6,10 @@
   width: 55vw;
 
   main {
-    margin: 100px;
+    padding: 100px;
     max-width: 45vw;
+    background-color: $color-light-white;
+    width: 100%;
 
     h1 {
       font-family: $font-base;

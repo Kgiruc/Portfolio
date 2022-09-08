@@ -32,6 +32,10 @@
     font-size: 25px;
     cursor: pointer;
   }
+  :hover{
+    background-color: $color-white;
+    color: $color-blue;
+  }
 }
 
 
