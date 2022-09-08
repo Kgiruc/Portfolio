@@ -1,0 +1,18 @@
+.experience__container{
+  text-align: center;
+  color:$color-gray-blank;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  span{
+    background-color: $color-gray;
+    cursor: pointer;
+    padding: 90px 50px;
+    font-size: $font-subhead1;
+  }
+  :hover{
+    background-color: transparent;
+    color: transparent;
+  }
+}

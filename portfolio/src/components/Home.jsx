@@ -1,3 +1,5 @@
+import Experience from "./Experience.jsx";
+
 function Home() {
     return (
         <div className="home__container">
@@ -22,6 +24,7 @@ function Home() {
                     Bazowałem na językach C, C++, FBD. Obecnie poszerzam wiedzę z języków którą wyrażają moją kreatywność.
                 </section>
             </main>
+            <Experience />
         </div>
     );
 }

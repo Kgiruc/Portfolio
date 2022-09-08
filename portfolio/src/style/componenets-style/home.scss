@@ -1,8 +1,7 @@
 .home__container {
   background: url("https://nydsgn.com/images/visualization/7.jpg") center center no-repeat;
-
   float: right;
-  height: 100vh;
+  height: 100%;
   width: 55vw;
 
   main {
@@ -37,7 +36,7 @@ h2 {
   color: $color-gray-blank;
 }
 
-section{
+section {
   font-family: $font-alt;
   font-size: $font-typical;
   font-weight: 400;
