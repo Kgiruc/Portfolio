@@ -1,18 +1,19 @@
 .experience__container{
   text-align: center;
-  color:$color-gray-blank;
+  color:$color-white;
   display: flex;
   flex-direction: column;
   gap: 2px;
 
   span{
-    background-color: $color-gray;
+    background-color: $color-deep-purple;
     cursor: pointer;
     padding: 90px 50px;
-    font-size: $font-subhead1;
+    font-size: $font-head4;
+    font-family: $font-base;
   }
   :hover{
-    background-color: transparent;
+    background-color: $color-light-gray;
     color: transparent;
   }
 }
