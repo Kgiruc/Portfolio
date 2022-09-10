@@ -9,9 +9,15 @@ function Experience() {
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}>
             {isHover ? "nope"  : "SurfBurger" }
+        </span><span
+            onMouseEnter={() => setIsHover(true)}
+            onMouseLeave={() => setIsHover(false)}>
+            {isHover ? "nope"  : "Teleakces" }
+        </span><span
+            onMouseEnter={() => setIsHover(true)}
+            onMouseLeave={() => setIsHover(false)}>
+            {isHover ? "nope"  : "Global gsm" }
         </span>
-        <span>Teleakcess Galeria Morena</span>
-        <span>Global GSM</span>
         </article>
     );
 }
