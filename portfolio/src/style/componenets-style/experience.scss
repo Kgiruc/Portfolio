@@ -6,14 +6,23 @@
   gap: 2px;
 
   span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $color-deep-purple;
     cursor: pointer;
-    padding: 90px 50px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
     font-size: $font-head4;
     font-family: $font-base;
   }
   :hover{
     background-color: $color-light-gray;
-    color: transparent;
+    justify-content: start;
+    align-items: start;
+    padding-left: 3vw;
+
+
   }
 }
