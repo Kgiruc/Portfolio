@@ -17,7 +17,7 @@ function Home() {
                     używam
                     czystego css, preferuję Sass'a i pomału ucze się Tailwinda.
                 </section>
-                <h2>Personalne</h2>
+                <h3>Personalne</h3>
                 <section>
                     Jestem Serwisantem i byłym studentem na kierunku Komputerowe systemy sterowania. Studia przerwałem
                     na ostatnim roku, by bardziej zagłębić wiedzę w kierunku typowo programistycznym.
