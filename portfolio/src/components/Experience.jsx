@@ -10,7 +10,8 @@ function Experience() {
         <span
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}>
-            {isHover ? "nope"  : "SurfBurger" }
+            {isHover ? "Składanie burgerów, praca w większej grupie, współpraca, odpowiedzialność za" +
+                "powierzone zadania "  : "SurfBurger" }
         </span><span
             onMouseEnter={() => setIsHover2(true)}
             onMouseLeave={() => setIsHover2(false)}>
@@ -20,7 +21,7 @@ function Experience() {
             onMouseEnter={() => setIsHover3(true)}
             onMouseLeave={() => setIsHover3(false)}>
             {isHover3 ? "Naprawianie telefonów, dokonywanie zmian w oprogramowaniu smartfonów"
-                : "Global gsm" }
+                : "Global GSM" }
         </span>
         </article>
     );
