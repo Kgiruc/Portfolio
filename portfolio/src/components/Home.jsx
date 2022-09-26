@@ -14,7 +14,7 @@ function Home() {
                 <h2>Techniczne</h2>
                 <section>
                     Obecnie zaciekawiłem się Three.js, staram się projektować różne animacje z nim związane. Przeważnie
-                    pracuję więcej z React.js niż z czystą wersją Javascripta. Jeśli chodzi o stylowanie wogle nie
+                    pracuję więcej z React.js niż z czystą wersją Javascripta. Jeśli chodzi o stylowanie nie
                     używam
                     czystego css, preferuję Sass'a i pomału ucze się Tailwinda.
                 </section>
@@ -22,7 +22,7 @@ function Home() {
                 <section>
                     Jestem Serwisantem i byłym studentem na kierunku Komputerowe systemy sterowania. Studia przerwałem
                     na ostatnim roku, by bardziej zagłębić wiedzę w kierunku typowo programistycznym.
-                    Bazowałem na językach C, C++, FBD. Obecnie poszerzam wiedzę z języków którą wyrażają moją kreatywność.
+                    Bazowałem na językach C, C++, FBD. Obecnie poszerzam wiedzę z języków które wyrażają moją kreatywność.
                 </section>
             </main>
             <Experience />
