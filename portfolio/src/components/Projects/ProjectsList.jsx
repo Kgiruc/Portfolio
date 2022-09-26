@@ -6,7 +6,7 @@ const ProjectsAll = [
             'While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.',
         distance: '384,400 KM',
         travel:'3 DAYS',
-        img: moon,
+        // img: moon,
         id: 1,
     },
     {
@@ -16,7 +16,7 @@ const ProjectsAll = [
             ' It’s two and a half times the size of Everest!',
         distance: '225 MIL. KM',
         travel:'9 MONTHS',
-        img: mars,
+        // img: mars,
         id: 2,
     },
     {
@@ -26,7 +26,7 @@ const ProjectsAll = [
             ' or simple relaxation in your snug wintery cabin.',
         distance: '628 MIL. KM',
         travel:'3 YEARS',
-        img: europa,
+        // img: europa,
         id: 3,
     },
     {
@@ -36,7 +36,7 @@ const ProjectsAll = [
             'As a bonus, you get striking views of the Rings of Saturn.',
         distance: '1.6 BIL. KM',
         travel:'7 YEARS',
-        img:titan,
+        // img:titan,
         id: 4,
     },
 ]

@@ -2,7 +2,7 @@ import {useState} from "react";
 import ProjectsAll from "./ProjectsList.jsx";
 
 function ProjectsMenu() {
-    [state, setState] =useState(ProjectsAll);
+    const [state, setState] =useState(ProjectsAll);
     return (
         <>
             {
