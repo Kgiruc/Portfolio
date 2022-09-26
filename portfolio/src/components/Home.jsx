@@ -1,4 +1,5 @@
 import Experience from "./Experience.jsx";
+import ProjectsButtons from "./Projects/Projects-Buttons.jsx";
 
 function Home() {
     return (
@@ -25,6 +26,7 @@ function Home() {
                 </section>
             </main>
             <Experience />
+            <ProjectsButtons />
         </div>
     );
 }

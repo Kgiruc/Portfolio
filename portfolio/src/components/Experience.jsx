@@ -10,8 +10,8 @@ function Experience() {
         <span
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}>
-            {isHover ? "Składanie burgerów, praca w większej grupie, współpraca, odpowiedzialność za" +
-                "powierzone zadania "  : "SurfBurger" }
+            {isHover ? "Składanie burgerów, praca w większej grupie, współpraca, odpowiedzialność za powierzone " +
+                "zadania "  : "SurfBurger" }
         </span><span
             onMouseEnter={() => setIsHover2(true)}
             onMouseLeave={() => setIsHover2(false)}>
