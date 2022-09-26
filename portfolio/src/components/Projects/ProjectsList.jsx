@@ -1,4 +1,4 @@
-const PlanetAll = [
+const ProjectsAll = [
     {
         title: 'MOON',
         body: 'See our planet as you’ve never seen it before. ' +
@@ -41,4 +41,4 @@ const PlanetAll = [
     },
 ]
 
-export default PlanetAll;
+export default ProjectsAll;
