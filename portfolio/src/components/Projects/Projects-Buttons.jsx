@@ -6,7 +6,9 @@ function ProjectsButtons() {
             <button value="All" className="projects__buttons">All</button>
             <button value="website" className="projects__buttons">Websites</button>
             <button value="Application" className="projects__buttons">Applications</button>
-            <ProjectsMenu />
+            <div>
+                <ProjectsMenu />
+            </div>
         </div>
 
     );

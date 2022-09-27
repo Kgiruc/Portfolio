@@ -1,8 +1,7 @@
 .projects__container{
   margin: 7vh;
-  display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
 .projects__buttons{
@@ -11,11 +10,9 @@
   font-family: $font-alt;
   background-color: $color-white;
   border: 3px solid $color-blue;
-  border-radius: 15px;
-  padding: 15px 25px;
+  border-radius: 20px;
+  padding: 1.5vh 2.5vw;
   cursor: pointer;
-  display: inline-block;
-  text-align: center;
   text-decoration: none;
   margin-left: 2.5vw;
   &:hover{
@@ -23,4 +20,10 @@
     background-color: $color-blue;
     border: 3px solid $color-white;
   }
+}
+
+.projects__menu__container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1vw;
 }

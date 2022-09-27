@@ -7,20 +7,11 @@ function ProjectsMenu() {
         <>
             {
                 state.map((item) => {
-                    return <section className="planet__container" key={item.id}>
-                        <img className="planet__img" src={item.img} alt="planet" />
-                        <article className="planet__container__subs">
+                    return <section className="projects__menu__container" key={item.id}>
+                        <img className="projects__menu__img" src={item.img} alt="planet" />
+                        <article className="projects__menu__subs">
                             <h2>{item.title}</h2>
                             <p>{item.body}</p>
-                            <hr></hr>
-                            <div className="planet__results">
-                                <span>AVG. DISTANCE</span>
-                                <span>EST. TRAVEL TIME</span>
-                            </div>
-                            <div className="planet__results__points">
-                                <p>{item.distance}</p>
-                                <p>{item.travel}</p>
-                            </div>
                         </article>
                     </section>
                 })
