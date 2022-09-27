@@ -1,7 +1,8 @@
 .projects__container{
-  margin: 7vh;
+  margin: 7vh 3vw;
   justify-content: center;
   align-items: start;
+  text-align: center;
 }
 
 .projects__buttons{
@@ -14,7 +15,9 @@
   padding: 1.5vh 2.5vw;
   cursor: pointer;
   text-decoration: none;
-  margin-left: 2.5vw;
+  margin-left: 2vw;
+  margin-bottom: 5vh;
+
   &:hover{
     color: $color-white;
     background-color: $color-blue;
@@ -25,5 +28,5 @@
 .projects__menu__container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1vw;
+  grid-gap: 2vw;
 }
