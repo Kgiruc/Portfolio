@@ -26,7 +26,22 @@
 }
 
 .projects__menu__container{
+  background-color: $color-light-gray;
+  width: 53rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2vw;
+  margin-left: -20px;
+
+  img{
+      width: 30vw;
+      height: 20vh;
+    }
+
+  .projects__results{
+    display: flex;
+    flex-direction: column;
+    max-width: 2vw;
+  }
 }
+

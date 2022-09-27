@@ -12,6 +12,10 @@ function ProjectsMenu() {
                         <article className="projects__menu__subs">
                             <h2>{item.title}</h2>
                             <p>{item.body}</p>
+                            <div className="projects__results">
+                                <span>{item.demo}</span>
+                                <span>{item.github}</span>
+                            </div>
                         </article>
                     </section>
                 })
