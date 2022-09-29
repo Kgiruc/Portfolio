@@ -15,8 +15,8 @@ function ProjectsMenu() {
                             <h2>{item.title}</h2>
                             <p>{item.body}</p>
                             <div className="projects__results">
-                                <a href={item.demo} _blank><img src={monitor} alt="demo"/></a>
-                                <a href={item.github}><img src={github_logo} alt="github"/></a>
+                                <a href={item.demo} target="_blank"><img src={monitor} alt="demo"/></a>
+                                <a href={item.github} target="_blank"><img src={github_logo} alt="github"/></a>
                             </div>
                         </article>
                     </section>
