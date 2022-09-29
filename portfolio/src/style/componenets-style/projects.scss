@@ -1,11 +1,11 @@
-.projects__container{
+.projects__container {
   margin: 7vh 3vw;
   justify-content: center;
   align-items: start;
   text-align: center;
 }
 
-.projects__buttons{
+.projects__buttons {
   color: $color-gray-blank;
   font-size: $font-subhead1;
   font-family: $font-alt;
@@ -15,33 +15,53 @@
   padding: 1.5vh 2.5vw;
   cursor: pointer;
   text-decoration: none;
-  margin-left: 2vw;
+  margin-left: 4vw;
   margin-bottom: 5vh;
 
-  &:hover{
+  &:hover {
     color: $color-white;
     background-color: $color-blue;
     border: 3px solid $color-white;
   }
 }
 
-.projects__menu__container{
-  background-color: $color-light-gray;
-  width: 53rem;
+.item{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2vw;
-  margin-left: -20px;
+  align-items: flex-end;
+}
 
-  img{
-      width: 30vw;
-      height: 20vh;
-    }
+.projects__menu__container {
+  background-color: $color-light-gray;
+  width: auto;
+  height: 460px;
+  float: right;
+  padding: 10px;
+  align-items: center;
 
-  .projects__results{
-    display: flex;
-    flex-direction: column;
-    max-width: 2vw;
+  img {
+    max-width: 350px;
+    max-height: 290px;
   }
 }
 
+.projects__menu__subs {
+  width: auto;
+  text-align: center;
+
+  p {
+    margin-bottom: 55px;
+  }
+}
+
+.projects__links {
+  display: flex;
+  gap: 18px;
+  float: right;
+
+  img {
+    height: 40px;
+    width: 40px;
+  }
+}

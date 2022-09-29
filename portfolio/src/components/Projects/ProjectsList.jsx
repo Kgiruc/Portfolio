@@ -3,7 +3,7 @@ import oddam from "../../assets/oddam.png"
 const ProjectsAll = [
     {
         title: 'Website-oddam',
-        body: '',
+        body: 'layout strony do oddawania ubrań potrzebującym',
         github: 'https://github.com/Kgiruc/website-oddam/tree/master/oddam',
         demo:'https://oddam-website-dbd0b.web.app',
          img: oddam,
