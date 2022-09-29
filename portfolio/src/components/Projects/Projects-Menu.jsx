@@ -12,7 +12,7 @@ function ProjectsMenu() {
                     return <section className="projects__menu__container" key={item.id}>
                         <img className="projects__menu__img" src={item.img} alt="screenshot"/>
                         <article className="projects__menu__subs">
-                            <h2>{item.title}</h2>
+                            <span>{item.title}</span>
                             <p>{item.body}</p>
                             <div className="projects__links">
                                 <a href={item.demo} target="_blank"><img src={monitor} alt="demo"/></a>

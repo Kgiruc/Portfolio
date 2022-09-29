@@ -25,7 +25,7 @@
   }
 }
 
-.item{
+.item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2vw;
@@ -34,15 +34,16 @@
 
 .projects__menu__container {
   background-color: $color-light-gray;
-  width: auto;
+  max-width: auto;
   height: 460px;
   float: right;
   padding: 10px;
   align-items: center;
+  text-align: center;
 
   img {
-    max-width: 350px;
-    max-height: 290px;
+    width: 350px;
+    height: 290px;
   }
 }
 
@@ -50,8 +51,20 @@
   width: auto;
   text-align: center;
 
+  span {
+    color: $color-gray-blank;
+    font-family: $font-base;
+    font-size: $font-head4;
+    margin-top: 14px;
+  }
+
   p {
+    font-size: $font-typical;
+    color: $color-gray;
+
+    margin-top: 8px;
     margin-bottom: 55px;
+    max-width: 340px;
   }
 }
 
