@@ -1,5 +1,7 @@
 import Experience from "./Experience.jsx";
-import ProjectsButtons from "./Projects/Projects-Buttons.jsx";
+import ProjectsMenu from "./Projects/Projects-Menu.jsx";
+
+
 
 function Home() {
     return (
@@ -12,21 +14,21 @@ function Home() {
                     Codziennie staram się podpatrywać sposób pisania kodu developerów i wprowadzać je w swoje projekty.
                 </article>
                 <h2>Techniczne</h2>
-                <section>
+                <section className="home__section tech">
                     Obecnie zaciekawiłem się Three.js, staram się projektować różne animacje z nim związane. Przeważnie
                     pracuję więcej z React.js niż z czystą wersją Javascripta. Jeśli chodzi o stylowanie nie
                     używam
                     czystego css, preferuję Sass'a i pomału ucze się Tailwinda.
                 </section>
                 <h3>Personalne</h3>
-                <section>
+                <section className="home__section per">
                     Jestem Serwisantem i byłym studentem na kierunku Komputerowe systemy sterowania. Studia przerwałem
                     na ostatnim roku, by bardziej zagłębić wiedzę w kierunku typowo programistycznym.
                     Bazowałem na językach C, C++, FBD. Obecnie poszerzam wiedzę z języków które wyrażają moją kreatywność.
                 </section>
             </main>
             <Experience />
-            <ProjectsButtons />
+            <ProjectsMenu />
         </div>
     );
 }

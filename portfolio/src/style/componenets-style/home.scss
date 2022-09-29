@@ -6,14 +6,12 @@
   background-size: cover;
 
 
-
   main {
     padding: 100px 0 0 100px;
     max-width: 45vw;
     width: 100vw;
     height: auto;
     position: static;
-
 
 
     h1 {
@@ -34,7 +32,7 @@
   margin-bottom: 35px;
 }
 
-h2,h3 {
+h2, h3 {
   margin-bottom: 15px;
   font-family: $font-base;
   font-size: $font-general;
@@ -42,7 +40,7 @@ h2,h3 {
   color: $color-gray-blank;
 }
 
-section {
+.tech, .per {
   font-family: $font-alt;
   font-size: $font-typical;
   font-weight: 400;
@@ -50,5 +48,11 @@ section {
   line-height: 20px;
   margin-bottom: 20px;
 }
+
+.per {
+  margin-bottom: 40%;
+}
+
+
 
 

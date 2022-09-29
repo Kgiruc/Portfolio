@@ -10,6 +10,7 @@ const ProjectsAll = [
         github: 'https://github.com/Kgiruc/website-oddam/tree/master/oddam',
         demo:'https://oddam-website-dbd0b.web.app',
          img: oddam,
+        type: 'website',
         id: 1,
     },
     {
@@ -18,6 +19,7 @@ const ProjectsAll = [
         github: 'https://github.com/Kgiruc/space-website/tree/main/space',
         demo:'https://kosmo-71a54.web.app',
          img: kosmo,
+        type: 'website',
         id: 2,
     },
     {
@@ -26,6 +28,7 @@ const ProjectsAll = [
         github: 'https://github.com/Kgiruc/todo_react',
         demo:'https://todo-af9e0.web.app/',
          img: todo,
+        type: 'application',
         id: 3,
     },
     {
@@ -34,6 +37,7 @@ const ProjectsAll = [
         github: 'https://github.com/Kgiruc/website-oddam/tree/master/oddam',
         demo:'https://car-menu-c07e2.web.app/',
          img: car,
+        type: 'application',
         id: 4,
     },
     {
@@ -42,6 +46,7 @@ const ProjectsAll = [
         github: '-',
         demo:'-',
          img: todo,
+        type: 'website',
         id: 5,
     },
     {
@@ -50,6 +55,7 @@ const ProjectsAll = [
         github: 'https://github.com/Kgiruc/website-oddam/tree/master/oddam',
         demo:'https://oddam-website-dbd0b.web.app',
          img: kosmo,
+        type: 'website',
         id: 6,
     },
 ]
