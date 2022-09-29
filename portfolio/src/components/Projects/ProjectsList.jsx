@@ -1,6 +1,7 @@
 import oddam from "../../assets/oddam.png";
 import kosmo from "../../assets/kosmo.png";
 import todo from "../../assets/todo.png";
+import car from "../../assets/car_menu.png";
 
 const ProjectsAll = [
     {
@@ -32,7 +33,7 @@ const ProjectsAll = [
         body: 'Proste menu samochodowe z dostępnymi widgetami i nawigacją (React.js + Sass only PC)',
         github: 'https://github.com/Kgiruc/website-oddam/tree/master/oddam',
         demo:'https://car-menu-c07e2.web.app/',
-         img: oddam,
+         img: car,
         id: 4,
     },
     {

@@ -34,7 +34,7 @@
 
 .projects__menu__container {
   background-color: $color-light-gray;
-  max-width: auto;
+  width: auto;
   height: 460px;
   float: right;
   padding: 10px;
@@ -61,10 +61,10 @@
   p {
     font-size: $font-typical;
     color: $color-gray;
-
     margin-top: 8px;
     margin-bottom: 55px;
-    max-width: 340px;
+    width: auto;
+    padding: 2px 1vw 0 1vw;
   }
 }
 
