@@ -1,5 +1,6 @@
 import Experience from "./Experience.jsx";
 import ProjectsMenu from "./Projects/Projects-Menu.jsx";
+import Contact from "./Contact.jsx";
 
 
 
@@ -29,6 +30,7 @@ function Home() {
             </main>
             <Experience />
             <ProjectsMenu />
+            <Contact />
         </div>
     );
 }

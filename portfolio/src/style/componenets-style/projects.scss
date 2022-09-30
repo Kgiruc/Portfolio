@@ -26,6 +26,10 @@
   }
 }
 
+.active__buttons {
+  color: green;
+}
+
 .item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

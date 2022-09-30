@@ -11,6 +11,7 @@ function ProjectsMenu() {
 
         if (word === 'all') {
             setState(ProjectsAll);
+            IsActive(true);
         } else if (word === 'applications') {
             const filtered = ProjectsAll.filter(item => item.type === 'application');
 
