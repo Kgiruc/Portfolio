@@ -27,7 +27,6 @@ function Contact() {
             icon: "success",
             timer: 3000,
             buttons: false,
-
         });
     };
 
@@ -36,11 +35,14 @@ function Contact() {
             <h4>
                 <img src={send} alt='paper plane icon' className='contact__icon icons'/>
                 Kontakt ze mną
+                <span>
+
+                </span>
             </h4>
             <form onSubmit={submitForm} className='contact__form__container'>
                 <input type="text" placeholder="Imię" value={name} onChange={(e) => setName(e.target.value)}/>
                 <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
-                <textarea value={message} placeholder="wiadomość..." onChange={(e) => setMessage(e.target.value)}/>
+                <textarea value={message} placeholder="Wiadomość..." onChange={(e) => setMessage(e.target.value)}/>
                 <button type='submit'>
                     Wyślij
                 </button>
