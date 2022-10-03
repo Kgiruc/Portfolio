@@ -1,18 +1,70 @@
-.contact__container{
-  width: 50vw;
-  height: 120px;
+.contact__container {
+  height: auto;
   background-color: $color-light-white;
   margin: 2vw;
   border-radius: 2px;
+  text-align: center;
+  padding: 40px;
 }
 
-h4{
+h4 {
   font-family: $font-base;
-  font-size: $font-head4;
+  font-size: calc($font-head3 - 8px);
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 
-  img{
+  .contact__icon {
     margin-right: 10px;
+    width: 45px;
+    height: 45px;
   }
+}
+
+.contact__form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 55%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  & input{
+    font-size: $font-head4;
+  }
+
+  input[type=text] {
+    border: 2px solid $color-gray-blank;
+    border-radius: 8px;
+    height: 2.5vh;
+  }
+
+  input[type=email] {
+    border: 2px solid $color-gray-blank;
+    border-radius: 8px;
+    height: 2.5vh;
+  }
+
+  textarea {
+    border: 1.5px solid $color-gray-blank;
+    border-radius: 8px;
+    height: 8vh;
+    padding: 12px;
+  }
+}
+
+.contact__form__container button {
+  display: block;
+  width: 100px;
+  margin-right: 0;
+  margin-left: auto;
+  height: auto;
+  font-family: $font-base;
+  font-weight: 400;
+  font-size: $font-head4;
+  background-color: $color-blue;
+  border: 2px solid $color-white;
+  border-radius: 50px;
+  color: $color-white;
+  line-height: 35px;
 }
