@@ -1,5 +1,6 @@
 import send from '../assets/icons/send.png';
 import {useState} from "react";
+import swal from 'sweetalert';
 
 function Contact() {
     const [message, setMessage] = useState('');
@@ -22,7 +23,12 @@ function Contact() {
                 message,
             }),
         });
-        alert("Wysłano pomyślnie");
+        swal({
+            icon: "success",
+            timer: 3000,
+            buttons: false,
+
+        });
     };
 
     return (
@@ -32,11 +38,11 @@ function Contact() {
                 Kontakt ze mną
             </h4>
             <form onSubmit={submitForm} className='contact__form__container'>
-                <input type="text" value={name} onChange={(e) => setName(e.target.value)}/>
-                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
-                <textarea value={message} onChange={(e) => setMessage(e.target.value)}/>
+                <input type="text" placeholder="Imię" value={name} onChange={(e) => setName(e.target.value)}/>
+                <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                <textarea value={message} placeholder="wiadomość..." onChange={(e) => setMessage(e.target.value)}/>
                 <button type='submit'>
-                    >>
+                    Wyślij
                 </button>
             </form>
         </section>

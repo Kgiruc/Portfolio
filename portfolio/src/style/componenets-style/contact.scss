@@ -30,7 +30,9 @@ h4 {
   margin-right: auto;
 
   & input{
-    font-size: $font-head4;
+    font-family: $font-alt;
+    font-size: $font-subhead1;
+    padding: 6px 15px;
   }
 
   input[type=text] {
@@ -50,14 +52,17 @@ h4 {
     border-radius: 8px;
     height: 8vh;
     padding: 12px;
+    font-family: $font-base;
+    font-size: $font-general;
   }
 }
 
 .contact__form__container button {
   display: block;
-  width: 100px;
+  width: 120px;
   margin-right: 0;
   margin-left: auto;
+  padding: 6px ;
   height: auto;
   font-family: $font-base;
   font-weight: 400;
@@ -67,4 +72,8 @@ h4 {
   border-radius: 50px;
   color: $color-white;
   line-height: 35px;
+}
+
+.swal-overlay {
+  background-color: $color-blue-blank;
 }
