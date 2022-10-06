@@ -1,11 +1,12 @@
 import Experience from "./Experience.jsx";
 import ProjectsMenu from "./Projects/Projects-Menu.jsx";
 import Contact from "./Contact.jsx";
+import Background from "./background/Background.jsx";
 
 function Home() {
     return (
         <div className="home__container">
-
+            <Background />
             <main>
                 <h1>O mnie</h1>
                 <article className="home main__article">
