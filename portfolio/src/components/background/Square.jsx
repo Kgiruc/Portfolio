@@ -1,7 +1,6 @@
 import Person from "../../assets/Me.jpeg";
 import {useLoader} from "@react-three/fiber";
 import {TextureLoader} from "three";
-import {OrbitControls, Stars} from "@react-three/drei";
 import {useRef} from "react";
 import {useFrame} from "@react-three/fiber";
 
