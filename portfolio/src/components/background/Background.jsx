@@ -8,7 +8,7 @@ function Background() {
         <Canvas>
             <Suspense fallback={null}>
                 <Square />
-                <Elements/>
+                <Elements />
             </Suspense>
         </Canvas>
     );
