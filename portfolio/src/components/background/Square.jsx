@@ -3,7 +3,6 @@ import {useLoader} from "@react-three/fiber";
 import {TextureLoader} from "three";
 import {useRef} from "react";
 import {useFrame} from "@react-three/fiber";
-import {Edges} from "@react-three/drei";
 
 function Square() {
     const [colorMap, normalMap, specularMap] = useLoader(TextureLoader, [Person, Person, Person,]);
@@ -12,8 +11,8 @@ function Square() {
 
     useFrame(({clock}) => {
         const elapsedTime = clock.getElapsedTime();
-        geometryRef.current.rotation.y = elapsedTime / 8;
-        geometryRef.current.rotation.z = elapsedTime / 8;
+        geometryRef.current.rotation.y = elapsedTime / 10;
+        geometryRef.current.rotation.z = elapsedTime / 10;
         geometryRef.current.rotation.x = elapsedTime / 20;
     })
 

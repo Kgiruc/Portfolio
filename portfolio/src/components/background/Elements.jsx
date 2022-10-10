@@ -1,15 +1,19 @@
 import * as THREE from "three";
 import {useRef, useMemo} from "react";
-import {useFrame} from "@react-three/fiber";
+import {useFrame, useThree} from "@react-three/fiber";
 import {Edges} from "@react-three/drei";
 
 function Elements() {
+    const { viewport} = useThree();
     const group = useRef();
-    useFrame(({clock}) => {
+    let theta = 0;
+    useFrame(({mouse, clock}) => {
         const elapsedTime = clock.getElapsedTime();
-        group.current.rotation.y = elapsedTime / 70;
-        group.current.rotation.z = elapsedTime / 70;
-        group.current.rotation.x = elapsedTime / 100;
+        const x = (mouse.x * viewport.width) / elapsedTime * 20;
+        const y = (mouse.y * viewport.height) / elapsedTime * 20;
+        group.current.position.x = x;
+        group.current.rotation.y = y;
+        group.current.rotation.z = elapsedTime / 4;
     });
 
     const [geo, mat, coords] = useMemo(() => {
@@ -31,9 +35,15 @@ function Elements() {
         <>
             <group ref={group}>
                 {coords.map(([p1, p2, p3], i) => (
-                    <mesh key={i} geometry={geo} material={mat} position={[p1, p2, p3]}/>
+                    <mesh key={i} geometry={geo} material={mat} position={[p1, p2, p3]}>
+                        <Edges scale={1}
+                           color="white"
+                    />
+                    </mesh>
                 ))}
+
             </group>
+
         </>
     );
 }
