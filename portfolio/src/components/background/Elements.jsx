@@ -6,11 +6,10 @@ import {Edges} from "@react-three/drei";
 function Elements() {
     const { viewport} = useThree();
     const group = useRef();
-    let theta = 0;
     useFrame(({mouse, clock}) => {
         const elapsedTime = clock.getElapsedTime();
-        const x = (mouse.x * viewport.width) / elapsedTime * 20;
-        const y = (mouse.y * viewport.height) / elapsedTime * 20;
+        const x = (mouse.x * viewport.width) / elapsedTime * 6;
+        const y = (mouse.y * viewport.height) / elapsedTime * 6;
         group.current.position.x = x;
         group.current.rotation.y = y;
         group.current.rotation.z = elapsedTime / 4;

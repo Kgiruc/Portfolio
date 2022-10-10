@@ -1,6 +1,7 @@
 import './style/main.scss'
 import Home from "./components/Home.jsx";
 import FixBlock from "./components/FixBlock.jsx";
+import Cursor from "./components/Cursor.jsx";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
         <FixBlock />
         <Home />
+        <Cursor />
     </div>
   )
 }
