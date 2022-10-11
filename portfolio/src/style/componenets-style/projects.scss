@@ -13,7 +13,6 @@
   border: 3px solid $color-blue;
   border-radius: 30px;
   padding: 10px 30px;
-  cursor: pointer;
   text-decoration: none;
   margin-left: 4vw;
   margin-bottom: 5vh;
@@ -24,10 +23,6 @@
     background-color: $color-blue;
     border: 3px solid $color-white;
   }
-}
-
-.active__buttons {
-  color: green;
 }
 
 .item {
