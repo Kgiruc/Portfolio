@@ -6,7 +6,7 @@ import Background from "./background/Background.jsx";
 function Home() {
     return (
         <div className="home__container">
-            <Background>
+            <Background />
             <main>
                 <h1>O mnie</h1>
                 <article className="home main__article">
@@ -28,7 +28,6 @@ function Home() {
                     Bazowałem na językach C, C++, FBD. Obecnie poszerzam wiedzę z języków które wyrażają moją kreatywność.
                 </section>
             </main>
-            </Background>
             <Experience />
             <ProjectsMenu />
             <Contact />

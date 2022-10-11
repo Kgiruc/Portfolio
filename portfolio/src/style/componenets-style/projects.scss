@@ -1,8 +1,11 @@
 .projects__container {
-  margin: 7vh 3vw;
+  padding: 2vh 3vw;
   justify-content: center;
   align-items: start;
   text-align: center;
+  height: 100%;
+  background-color: $color-light-gray;
+  width: auto;
 }
 
 .projects__buttons {
@@ -33,7 +36,8 @@
 }
 
 .projects__menu__container {
-  background-color: $color-light-gray;
+  background-color: $color-blank-gray;
+  border: 1px solid $color-blue;
   width: auto;
   height: 460px;
   float: right;
