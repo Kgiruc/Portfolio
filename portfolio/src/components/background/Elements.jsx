@@ -8,8 +8,8 @@ function Elements() {
     const group = useRef();
     useFrame(({mouse, clock}) => {
         const elapsedTime = clock.getElapsedTime();
-        const x = (mouse.x * viewport.width) / elapsedTime * 6;
-        const y = (mouse.y * viewport.height) / elapsedTime * 6;
+        const x = (mouse.x * viewport.width) / elapsedTime * 2;
+        const y = (mouse.y * viewport.height) / elapsedTime * 2;
         group.current.position.x = x;
         group.current.rotation.y = y;
         group.current.rotation.z = elapsedTime / 4;

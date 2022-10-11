@@ -3,22 +3,23 @@
   background-color: $color-blue-blankmax;
   border-radius: 2px;
   text-align: center;
-  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 h4 {
   font-family: $font-base;
-  font-size: calc($font-head3 - 8px);
+  font-size: calc($font-head3 + 5px);
   font-weight: 600;
-  margin-bottom: 45px;
+  margin-bottom: 55px;
 
   .contact__icon {
-    margin-right: 10px;
-    width: 45px;
-    height: 45px;
+    margin-right: 20px;
+    width: 59px;
+    height: 59px;
+    rotate: 15deg;
   }
 }
 
@@ -26,10 +27,13 @@ h4 {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 55%;
+  width: 30vw;
+  padding: 30px 15px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  background-color: $color-light-gray;
+  border-radius: 15px;
 
   & input {
     font-family: $font-alt;
