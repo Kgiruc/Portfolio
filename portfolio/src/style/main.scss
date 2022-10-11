@@ -7,16 +7,16 @@
 @import "componenets-style/projects";
 @import "componenets-style/contact";
 
-body{
+body {
   background-color: $color-blue;
 }
 
-*{
+* {
   cursor: none;
 }
 
 .cursor-dot,
-.cursor-dot-outline{
+.cursor-dot-outline {
   pointer-events: none;
   position: absolute;
   top: 50%;
@@ -27,14 +27,27 @@ body{
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.cursor-dot{
+.cursor-dot {
   width: 10px;
   height: 10px;
   background-color: $color-white;
 }
 
-.cursor-dot-outline{
+.cursor-dot-outline {
   width: 40px;
   height: 40px;
   background-color: $color-light-white;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $color-blue-blankmax;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $color-white;
+  border-radius: 20px;
 }
