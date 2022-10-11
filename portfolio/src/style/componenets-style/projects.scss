@@ -78,4 +78,10 @@
     height: 40px;
     width: 40px;
   }
+
+  :hover{
+    background-color: $color-white;
+    border-radius: 10px;
+    padding: 1px;
+  }
 }
