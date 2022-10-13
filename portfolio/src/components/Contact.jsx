@@ -1,11 +1,16 @@
 import send from '../assets/icons/send.png';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import swal from 'sweetalert';
+import Aos from "aos";
 
 function Contact() {
     const [message, setMessage] = useState('');
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
+
+    useEffect(() => {
+        Aos.init({ duration: 1000});
+    }, [])
 
     const formId = 'oRG4pJqJ';
     const formSparkUrl = `https://submit-form.com/${formId}`;
@@ -31,7 +36,7 @@ function Contact() {
     };
 
     return (
-        <section className='contact__container'>
+        <section className='contact__container' data-aos='slide-left'>
             <h4>
                 <img src={send} alt='paper plane icon' className='contact__icon icons'/>
                 Kontakt ze mną

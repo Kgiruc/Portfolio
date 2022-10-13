@@ -1,15 +1,20 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import burger from "../assets/icons/burger.png";
 import smartphone from "../assets/icons/smartphone.png";
 import telephone from "../assets/icons/telephone.png";
+import Aos from "aos";
 
 function Experience() {
     const [isHover, setIsHover] = useState(false);
     const [isHover2, setIsHover2] = useState(false);
     const [isHover3, setIsHover3] = useState(false);
 
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+    }, [])
+
     return (
-        <article className="experience__container">
+        <article className="experience__container" data-aos="slide-right">
         <span
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}>

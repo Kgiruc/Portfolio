@@ -2,12 +2,18 @@ import Experience from "./Experience.jsx";
 import ProjectsMenu from "./Projects/Projects-Menu.jsx";
 import Contact from "./Contact.jsx";
 import Background from "./background/Background.jsx";
+import {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Home() {
+    useEffect(() => {
+        Aos.init({ duration: 1000});
+    }, [])
     return (
         <div className="home__container">
-            <Background />
-            <main>
+            <Background  />
+            <main data-aos="zoom-out-up">
                 <h1>O mnie</h1>
                 <article className="home main__article">
                     Lubię pracować blisko narzuconego projektu i opracowywać go co do pixela.

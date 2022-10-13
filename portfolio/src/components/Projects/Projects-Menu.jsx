@@ -1,10 +1,14 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import ProjectsAll from "./ProjectsList.jsx";
 import monitor from "../../assets/icons/monitor.png";
 import github_logo from "../../assets/icons/github.png";
+import Aos from "aos";
 
 function ProjectsMenu() {
     const [state, setState] = useState(ProjectsAll);
+    useEffect(() => {
+        Aos.init({ duration: 1000});
+    }, [])
 
     const handleButtons = (e) => {
         let word = e.target.value;
@@ -23,7 +27,7 @@ function ProjectsMenu() {
         }
     }
     return (
-        <div className="projects__container">
+        <div className="projects__container" data-aos="fade-up">
             <button value="all" className="projects__buttons" onClick={handleButtons}>
                 All
             </button>
