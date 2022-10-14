@@ -36,7 +36,7 @@ function Contact() {
     };
 
     return (
-        <section className='contact__container' data-aos='slide-left'>
+        <section className='contact__container' data-aos='slide-left' id="contact">
             <h4>
                 <img src={send} alt='paper plane icon' className='contact__icon icons'/>
                 Kontakt ze mną
