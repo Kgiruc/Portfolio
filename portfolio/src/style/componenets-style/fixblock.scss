@@ -51,3 +51,11 @@ footer{
     cursor: pointer;
   }
 }
+
+@media (max-width: $breakpoint-tablet) {
+  .fixblock__container{
+    width: 100vh;
+    height: 20%;
+    position: fixed;
+  }
+}

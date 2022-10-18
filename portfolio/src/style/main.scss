@@ -1,6 +1,7 @@
 @import "reset";
 @import "../style/settings/fonts";
 @import "../style/settings/colors";
+@import "../style/settings/breakpoints";
 @import "componenets-style/fixblock";
 @import "componenets-style/home";
 @import "componenets-style/experience";
@@ -52,4 +53,12 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: $color-white;
   border-radius: 20px;
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .cursor-dot,
+  .cursor-dot-outline {
+    display: none;
+  }
+
 }
