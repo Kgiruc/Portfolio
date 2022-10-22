@@ -83,9 +83,15 @@
     width: 40px;
   }
 
-  :hover{
+  :hover {
     background-color: $color-white;
     border-radius: 10px;
     padding: 1px;
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .projects__container {
+    padding: 2px;
   }
 }

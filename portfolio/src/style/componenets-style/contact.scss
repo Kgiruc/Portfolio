@@ -61,9 +61,10 @@ h4 {
     font-family: $font-base;
     font-size: $font-general;
   }
-  :focus{
-  background-color: $color-blue-blankmax;
-}
+
+  :focus {
+    background-color: $color-blue-blankmax;
+  }
 }
 
 .contact__form__container button {
@@ -83,13 +84,19 @@ h4 {
   line-height: 35px;
   transition: 1s;
 
-   &:hover {
+  &:hover {
     background-color: $color-white;
     border: 2px solid $color-blue;
-     color: $color-blue;
+    color: $color-blue;
   }
 }
 
 .swal-overlay {
   background-color: $color-blue-blank;
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .contact__container {
+
+  }
 }
