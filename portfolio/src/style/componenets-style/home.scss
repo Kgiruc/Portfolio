@@ -7,6 +7,10 @@
   scroll-snap-type: y mandatory;
   z-index: -10;
 
+  Canvas {
+    height: 100vh;
+    margin-left: 20px;
+  }
 
   main {
     padding: 0 50px 0 80px;
@@ -58,25 +62,62 @@ h2, h3 {
   margin-bottom: 40%;
 }
 
-Canvas{
-  height: 100vh;
-  margin-left: 20px;
-}
 
 @media (max-width: $breakpoint-tablet) {
-  .home__container{
+  .home__container {
     width: 100vw;
     height: 80%;
     float: none;
     overflow: hidden;
-  }
 
-  Canvas{
-    margin-left: 0;
-    margin-top: 25vh;
-    max-width: 100vw;
+    Canvas {
+      margin-left: 0;
+      margin-top: 25vh;
+      max-width: 100vw;
+    }
   }
 }
+
+@media (max-width: $breakpoint-smartphone) {
+  .home__container Canvas {
+    margin-left: 0;
+    margin-top: 15vh;
+  }
+
+  .home__container main {
+    padding: 20px;
+    height: 80vh;
+
+    h1 {
+      font-family: $font-base;
+      font-size: $font-head4;
+      font-weight: 600;
+      line-height: 50px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .home__container .main__article{
+    font-size: $font-subhead2;
+    margin-bottom: 25px;
+  }
+
+  h2, h3 {
+    margin-bottom: 5px;
+    font-size: $font-subhead2;
+  }
+
+  .tech, .per {
+    font-size: $font-typical;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .per {
+    margin-bottom: 10%;
+  }
+}
+
 
 
 

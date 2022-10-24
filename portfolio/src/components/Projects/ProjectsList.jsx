@@ -33,7 +33,7 @@ const ProjectsAll = [
     },
     {
         title: 'car-menu',
-        body: 'Proste menu samochodowe z dostępnymi widgetami i nawigacją (React.js + Sass only PC)',
+        body: 'Podstawowe widgety i nawigacja (React.js + Sass only PC)',
         github: 'https://github.com/Kgiruc/website-oddam/tree/master/oddam',
         demo:'https://car-menu-c07e2.web.app/',
          img: car,

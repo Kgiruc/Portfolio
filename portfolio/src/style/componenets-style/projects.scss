@@ -95,3 +95,61 @@
     padding: 2px;
   }
 }
+
+@media (max-width: $breakpoint-smartphone) {
+  .projects__container {
+    height: auto;
+  }
+
+  .projects__buttons {
+    padding: 5px 10px;
+    font-size: calc($font-subhead1 - 8px);
+    border: 2px solid $color-blue;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+  }
+
+  .projects__menu__container {
+    width: 180px;
+    height: 260px;
+
+
+    img {
+      width: 150px;
+      height: 90px;
+    }
+  }
+
+  .projects__menu__subs {
+    width: auto;
+
+    span {
+      font-size: $font-subhead1;
+    }
+
+    p {
+      font-size: $font-subhead2;
+      color: $color-gray;
+      margin-top: 8px;
+      margin-bottom: 45px;
+      width: auto;
+      padding: 2px 1vw 0 1vw;
+    }
+  }
+
+  .projects__links {
+    display: flex;
+    gap: 18px;
+    float: right;
+
+    img {
+      height: 35px;
+      width: 35px;
+    }
+
+    :hover {
+      padding: 1px;
+    }
+  }
+}

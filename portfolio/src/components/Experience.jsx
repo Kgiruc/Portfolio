@@ -18,17 +18,17 @@ function Experience() {
         <span
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}>
-            {isHover ? "Składanie burgerów, praca w większej grupie, współpraca, odpowiedzialność za powierzone " +
+            {isHover ? "Praca w większej grupie, współpraca, odpowiedzialność za powierzone " +
                 "zadania "  : "SurfBurger " }<img src={burger} alt='burger' className='icons'/>
         </span><span
             onMouseEnter={() => setIsHover2(true)}
             onMouseLeave={() => setIsHover2(false)}>
-            {isHover2 ? "Naprawiane telefonów, sprzedaż akcesoriów, praca z oprogramowaniem smartfonów"
+            {isHover2 ? "Naprawiane telefonów, sprzedaż akcesoriów, praca z oprogramowaniem smartfonów, praca z klientem"
                 : "Teleakces" }<img src={smartphone} alt='smartphone' className='icons'/>
         </span><span
             onMouseEnter={() => setIsHover3(true)}
             onMouseLeave={() => setIsHover3(false)}>
-            {isHover3 ? "Naprawianie telefonów, dokonywanie zmian w oprogramowaniu smartfonów"
+            {isHover3 ? "Naprawianie telefonów, dokonywanie zmian w oprogramowaniu smartfonów, praca z klientem"
                 : "Global GSM" }<img src={telephone} alt='telephone' className='icons'/>
         </span>
         </article>

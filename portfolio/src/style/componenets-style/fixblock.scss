@@ -11,6 +11,7 @@
   padding-left: 40px;
   position: fixed;
   z-index: 10;
+
   h1 {
     font-size: $font-head3;
     margin-bottom: 15px;
@@ -41,11 +42,11 @@
 }
 
 
-footer{
+footer {
   position: absolute;
   bottom: 2vh;
 
-  a{
+  a {
     color: $color-light-gray;
     font-weight: 600;
     cursor: pointer;
@@ -53,9 +54,40 @@ footer{
 }
 
 @media (max-width: $breakpoint-tablet) {
-  .fixblock__container{
+  .fixblock__container {
     width: 100vh;
     height: 30%;
     position: fixed;
+  }
+}
+
+@media (max-width: $breakpoint-smartphone) {
+  .fixblock__container {
+    width: 100vh;
+    height: 25%;
+    position: fixed;
+
+    h1 {
+      font-size: $font-subhead1;
+      margin-bottom: 8px;
+    }
+
+    span {
+      font-size: $font-subhead2;
+      margin-bottom: 12px;
+      font-family: $font-alt;
+      font-weight: 300;
+      max-width: 40vw;
+    }
+  }
+
+  .fixblock__button {
+    padding: 2px 6px;
+    font-size: 15px;
+    margin-bottom: 2vh;
+  }
+
+  footer {
+    align-items: center;
   }
 }

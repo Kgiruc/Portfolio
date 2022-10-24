@@ -1,13 +1,13 @@
-.experience__container{
+.experience__container {
   text-align: center;
-  color:$color-white;
+  color: $color-white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2px;
   height: 100vh;
 
-  span{
+  span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,8 @@
     font-family: $font-base;
     transition: 1.2s;
   }
-  :hover{
+
+  :hover {
     background-color: $color-light-gray;
     justify-content: start;
     align-items: center;
@@ -34,7 +35,26 @@
   }
 }
 
-.icons{
+.icons {
   width: 60px;
   height: 60px;
+}
+
+@media (max-width: $breakpoint-smartphone) {
+  .experience__container {
+    height: 80vh;
+
+    span {
+      font-size: $font-head4;
+    }
+
+    :hover {
+      font-size: calc($font-subhead1 - 7px);
+    }
+  }
+
+  .icons {
+    width: 40px;
+    height: 40px;
+  }
 }
