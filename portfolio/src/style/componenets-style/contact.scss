@@ -96,7 +96,33 @@ h4 {
 }
 
 @media (max-width: $breakpoint-tablet) {
-  .contact__container {
-
+  .contact__form__container {
+    width: 50vw;
   }
+}
+
+@media (max-width: $breakpoint-smartphone) {
+  .contact__container {
+    height: 80vh;
+
+    h4 {
+      font-size: $font-head3;
+      margin-bottom: 35px;
+
+      .contact__icon {
+        width: 45px;
+        height: 45px;
+        rotate: 15deg;
+      }
+    }
+  }
+
+  .contact__form__container {
+    width: 80vw;
+
+    button {
+      margin-right: auto;
+    }
+  }
+
 }

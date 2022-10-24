@@ -111,14 +111,17 @@
   }
 
   .projects__menu__container {
-    width: 180px;
+    width: auto;
     height: 260px;
-
 
     img {
       width: 150px;
       height: 90px;
     }
+  }
+
+  .item {
+    grid-gap: 0.5vw;
   }
 
   .projects__menu__subs {
