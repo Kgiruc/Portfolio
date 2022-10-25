@@ -1,6 +1,7 @@
 import {useEffect} from "react";
 import Aos from "aos";
 import {Link} from 'react-scroll'
+import download from "../assets/icons/download-pdf.png";
 
 function FixBlock() {
     useEffect(() => {
@@ -15,9 +16,11 @@ function FixBlock() {
                  Zacznijmy pracować razem!
             </Link>
             <footer>
-                <a href="https://github.com/Kgiruc" target="_blank">Github</a> and <a href="https://www.linkedin.com/in/karol-giruc/" target="_blank">LinkedIn</a>
-                <a href="../assets/Me.jpeg" download >
-                    CV
+                <a href="https://github.com/Kgiruc" target="_blank">Github</a>
+                and
+                <a href="https://www.linkedin.com/in/karol-giruc/" target="_blank">LinkedIn</a>
+                <a href="../../index.html" download>
+                    <img src={download} alt="download cv"/>
                 </a>
             </footer>
         </div>
