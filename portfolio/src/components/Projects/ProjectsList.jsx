@@ -45,7 +45,7 @@ const ProjectsAll = [
         body: 'Strona firmy bestshop z promocjami (Html + Sass)',
         github: '-',
         demo:'-',
-         img: todo,
+         img: kosmo,
         type: 'website',
         id: 5,
     },
