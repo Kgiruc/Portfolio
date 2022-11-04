@@ -2,6 +2,7 @@ import oddam from "../../assets/oddam.png";
 import kosmo from "../../assets/kosmo.png";
 import todo from "../../assets/todo.png";
 import car from "../../assets/car_menu.png";
+import bestshop from "../../assets/bestshop.png";
 
 const ProjectsAll = [
     {
@@ -43,9 +44,9 @@ const ProjectsAll = [
     {
         title: 'Website-bestshop',
         body: 'Strona firmy bestshop z promocjami (Html + Sass)',
-        github: '-',
+        github: 'https://github.com/Kgiruc/bestshop',
         demo:'-',
-         img: kosmo,
+         img: bestshop,
         type: 'website',
         id: 5,
     },
