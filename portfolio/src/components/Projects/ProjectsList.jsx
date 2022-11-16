@@ -45,7 +45,7 @@ const ProjectsAll = [
         title: 'Website-bestshop',
         body: 'Strona firmy bestshop z promocjami (Html + Sass)',
         github: 'https://github.com/Kgiruc/bestshop',
-        demo:'-',
+        demo:'https://bestshop-3160d.web.app/',
          img: bestshop,
         type: 'website',
         id: 5,

@@ -1,4 +1,4 @@
-import Person from "../../assets/Me.jpeg";
+import Person from "../../assets/Me.jpg";
 import {useLoader} from "@react-three/fiber";
 import {TextureLoader} from "three";
 import {useRef} from "react";
