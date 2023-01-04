@@ -12,8 +12,8 @@ function Square() {
     useFrame(({clock}) => {
         const elapsedTime = clock.getElapsedTime();
         geometryRef.current.rotation.y = elapsedTime / 10;
-        geometryRef.current.rotation.z = elapsedTime / 10;
-        geometryRef.current.rotation.x = elapsedTime / 20;
+        geometryRef.current.rotation.z = elapsedTime / 50;
+        geometryRef.current.rotation.x = elapsedTime / 10;
     })
 
     return (
