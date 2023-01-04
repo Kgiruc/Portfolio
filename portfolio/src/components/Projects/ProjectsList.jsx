@@ -54,8 +54,8 @@ const ProjectsAll = [
     {
         title: 'Website-portfolio',
         body: 'moje portfolio z użyciem Three.js (React.js + Three.js + Sass)',
-        github: 'https://github.com/Kgiruc/website-oddam/tree/master/oddam',
-        demo:'https://oddam-website-dbd0b.web.app',
+        github: 'https://github.com/Kgiruc/portfolio/tree/main/portfolio',
+        demo:'https://portfolio-f3498.web.app',
          img: portoflio,
         type: 'website',
         id: 6,
