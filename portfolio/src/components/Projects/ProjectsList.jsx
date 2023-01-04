@@ -3,6 +3,7 @@ import kosmo from "../../assets/kosmo.png";
 import todo from "../../assets/todo.png";
 import car from "../../assets/car_menu.png";
 import bestshop from "../../assets/bestshop.png";
+import portoflio from "../../assets/portfolio.png";
 
 const ProjectsAll = [
     {
@@ -52,10 +53,10 @@ const ProjectsAll = [
     },
     {
         title: 'Website-portfolio',
-        body: 'moje portfolio (React.js + Three.js + Sass)',
+        body: 'moje portfolio z użyciem Three.js (React.js + Three.js + Sass)',
         github: 'https://github.com/Kgiruc/website-oddam/tree/master/oddam',
         demo:'https://oddam-website-dbd0b.web.app',
-         img: kosmo,
+         img: portoflio,
         type: 'website',
         id: 6,
     },
