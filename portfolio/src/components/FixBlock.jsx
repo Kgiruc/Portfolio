@@ -3,6 +3,19 @@ import Aos from "aos";
 import {Link} from 'react-scroll'
 import download from "../assets/icons/download-pdf.png";
 
+
+
+const cvDownload = () => {
+    fetch('CV.pdf').then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'CV.pdf';
+            alink.click();
+        })
+    })
+}
 function FixBlock() {
     useEffect(() => {
         Aos.init({ duration: 2500});
@@ -19,9 +32,9 @@ function FixBlock() {
                 <a href="https://github.com/Kgiruc" target="_blank">Github </a>
                 and
                 <a href="https://www.linkedin.com/in/karol-giruc/" target="_blank"> LinkedIn</a>
-                <a href="src/assets/files/CV.pdf" download>
+                <button className="footer__button" onClick={cvDownload} type="button">
                     <img src={download} alt="download cv"/>
-                </a>
+                </button>
             </footer>
         </div>
     );

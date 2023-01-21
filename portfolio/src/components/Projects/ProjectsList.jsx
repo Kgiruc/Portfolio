@@ -4,6 +4,7 @@ import todo from "../../assets/todo.png";
 import car from "../../assets/car_menu.png";
 import bestshop from "../../assets/bestshop.png";
 import portoflio from "../../assets/portfolio.png";
+import dbmicro from "../../assets/dbmicro.png";
 
 const ProjectsAll = [
     {
@@ -59,6 +60,14 @@ const ProjectsAll = [
          img: portoflio,
         type: 'website',
         id: 6,
+    }, {
+        title: 'Website-portfolio',
+        body: 'Aplikacja smartdom z bazą danych w firebase (React.js + Tailwind + firebase)',
+        github: 'https://github.com/Kgiruc/smartdom/tree/main/smartdom',
+        demo:'https://dbmicro-84106.web.app/',
+         img: dbmicro,
+        type: 'application',
+        id: 7,
     },
 ]
 
