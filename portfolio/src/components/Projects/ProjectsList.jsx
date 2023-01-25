@@ -1,6 +1,6 @@
 import oddam from "../../assets/oddam.png";
 import kosmo from "../../assets/kosmo.png";
-import todo from "../../assets/todo.png";
+import ip from "../../assets/ip.png";
 import car from "../../assets/car_menu.png";
 import bestshop from "../../assets/bestshop.png";
 import portoflio from "../../assets/portfolio.png";
@@ -26,11 +26,11 @@ const ProjectsAll = [
         id: 2,
     },
     {
-        title: 'To-do',
-        body: 'Prosta aplikacja todo, praca nad State w React.js (React.js + Sass)',
-        github: 'https://github.com/Kgiruc/todo_react',
-        demo:'https://todo-af9e0.web.app/',
-         img: todo,
+        title: 'IP-Tracker',
+        body: 'Aplikacja renderująca mape gdzie znajduje się firma(ip firmy) (JS + Tailwind)',
+        github: 'https://github.com/Kgiruc/iptracker',
+        demo:'https://iptracker-cbde5.web.app',
+         img: ip,
         type: 'application',
         id: 3,
     },
