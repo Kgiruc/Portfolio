@@ -61,8 +61,8 @@ const ProjectsAll = [
         type: 'website',
         id: 6,
     }, {
-        title: 'Website-portfolio',
-        body: 'Aplikacja smartdom z bazą danych w firebase (React.js + Tailwind + firebase)',
+        title: 'SmartDom',
+        body: 'Aplikacja smartdom z bazą danych w Firebase (React.js + Tailwind + firebase)',
         github: 'https://github.com/Kgiruc/smartdom/tree/main/smartdom',
         demo:'https://dbmicro-84106.web.app/',
          img: dbmicro,
