@@ -27,3 +27,18 @@
     height: 140px;
   }
 }
+
+@media (max-width: $breakpoint-tablet) {
+  .technology__menu__container {
+    padding: 2px;
+  }
+}
+
+@media (max-width: $breakpoint-smartphone) {
+  .technology__menu__container{
+    img {
+      width: 150px;
+      height: 120px;
+    }
+  }
+}
