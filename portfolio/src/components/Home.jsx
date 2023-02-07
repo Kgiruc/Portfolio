@@ -5,6 +5,7 @@ import Background from "./background/Background.jsx";
 import {useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Technology from "./Projects/Technology.jsx";
 
 function Home() {
     useEffect(() => {
@@ -22,10 +23,11 @@ function Home() {
                 </article>
                 <h2>Techniczne</h2>
                 <section className="home__section tech">
-                    Obecnie zaciekawiłem się Three.js, staram się projektować różne animacje z nim związane. Przeważnie
-                    pracuję więcej z React.js niż z czystą wersją Javascripta. Jeśli chodzi o stylowanie nie
-                    używam
-                    czystego css, preferuję Sass'a i pomału ucze się Tailwinda.
+                    Obecnie zaciekawiłem się połączeniem mikrokontrolerów z
+                    Javascriptem i tworzeniem różnych czujników interaktywnych
+                    (połączonych z bazą danych w Firebase). Przeważnie pracuję
+                    więcej z React.js niż z czystą wersją JavaScript. Jeśli chodzi o
+                    stylowanie nie używam czystego CSS, preferuję Sass'a i Tailwinda.
                 </section>
                 <h3>Personalne</h3>
                 <section className="home__section per">
@@ -34,6 +36,7 @@ function Home() {
                     Bazowałem na językach C, C++, FBD. Obecnie poszerzam wiedzę z języków które wyrażają moją kreatywność.
                 </section>
             </main>
+            <Technology />
             <Experience />
             <ProjectsMenu />
             <Contact />

@@ -42,7 +42,7 @@ function ProjectsMenu() {
                 {
                     state.map((item) => {
                         return <section className="projects__menu__container" key={item.id}>
-                            <img className="projects__menu__img" src={item.img} alt="screenshot"/>
+                            <img className="projects__menu__img" src={item.img} alt="screenshot program"/>
                             <article className="projects__menu__subs">
                                 <span>{item.title}</span>
                                 <p>{item.body}</p>

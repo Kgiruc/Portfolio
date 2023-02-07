@@ -1,0 +1,29 @@
+.item__technology{
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2vw;
+  align-items: flex-end;
+  border: 2px solid transparent;
+
+  :hover {
+    zoom:1.01;
+  }
+}
+
+.technology__menu__container {
+  background-color: $color-light-white;
+  float: right;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+  :hover{
+   border: none;
+  }
+
+  img{
+    width: 180px;
+    height: 140px;
+  }
+}
