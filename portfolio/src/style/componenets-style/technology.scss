@@ -23,8 +23,8 @@
   }
 
   img{
-    width: 180px;
-    height: 140px;
+    width: 150px;
+    height: 120px;
   }
 }
 
@@ -37,8 +37,8 @@
 @media (max-width: $breakpoint-smartphone) {
   .technology__menu__container{
     img {
-      width: 150px;
-      height: 120px;
+      width: 100px;
+      height: 80px;
     }
   }
 }
