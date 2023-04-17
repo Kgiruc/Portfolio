@@ -45,9 +45,12 @@ function Contact() {
                 <input type="text" placeholder="Imię" value={name} onChange={(e) => setName(e.target.value)}/>
                 <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 <textarea value={message} placeholder="Wiadomość..." onChange={(e) => setMessage(e.target.value)}/>
-                <button type='submit'>
-                    Wyślij
-                </button>
+                {message.length > 4 ?
+                    <button type='submit'>
+                        Wyślij
+                    </button> :
+                    <p>wiadomość musi mieć conajmniej 5 znaków</p> 
+                }
             </form>
         </section>
     );
